@@ -1,0 +1,6 @@
+@media only screen and (max-width: 2500px) and (min-width: 993px){
+    #medi_header .main_navbar .main_navbar_backgroud{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

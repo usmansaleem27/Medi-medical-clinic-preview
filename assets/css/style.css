@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#medi_header .top_navbar{
+    background-color: var(--black);
+}
+
+#medi_header .top_navbar_branding{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#medi_header .top_brand_green{
+    color: var(--green);
+}
+#medi_header i{
+    color: var(--green);
+}
+
+#medi_header .top_buy_button button{
+    background-color: var(--green);
+    border: none;
+}
+
+#medi_header .contact_navbar i{
+    color: var(--light-blue);
+}
+#medi_header .contact_navbar a{
+    text-decoration: none;
+    color: var(--light-blue);
+    transition: 0.3s ease-in-out;
+}
+#medi_header .contact_navbar a:hover{
+    color: rgb(156, 156, 156);
+}
+
+#medi_header .main_navbar .main_navbar_backgroud{
+    background-color: var(--light-blue);
+}
+#medi_header .main_navbar .main_navbar_backgroud .main_navbar_items a{
+    color: white;
+    font-weight: 600;
+}
+#medi_header .main_navbar .main_navbar_backgroud .main_navbar_items i{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+#medi_header .main_navbar .main_navbar_backgroud .main_navbar_items a:hover{
+    color: var(--light-aqua);
+}
