@@ -1,53 +1,259 @@
-body{
+/************************************ Table of Contents  *****************************
+
+1. Header Here
+2. Home
+3. Footer
+
+*************************************************************************************/
+
+
+
+
+/* Font Family  */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
 }
-#medi_header .top_navbar{
+
+
+
+/******************************* 1. Header Here *****************************************/
+#medi_header .top_navbar {
     background-color: var(--black);
 }
 
-#medi_header .top_navbar_branding{
+.top_navbar_branding {
     font-size: 1.5em;
     font-weight: 600;
 }
-#medi_header .top_brand_green{
-    color: var(--green);
-}
-#medi_header i{
+
+.top_brand_green {
     color: var(--green);
 }
 
-#medi_header .top_buy_button button{
+#medi_header i {
+    color: var(--green);
+}
+
+.top_buy_button button {
     background-color: var(--green);
     border: none;
 }
 
-#medi_header .contact_navbar i{
+#medi_header .contact_navbar i {
     color: var(--light-blue);
 }
-#medi_header .contact_navbar a{
+
+#medi_header .contact_navbar a {
     text-decoration: none;
     color: var(--light-blue);
     transition: 0.3s ease-in-out;
 }
-#medi_header .contact_navbar a:hover{
+
+#medi_header .contact_navbar a:hover {
     color: rgb(156, 156, 156);
 }
 
-#medi_header .main_navbar .main_navbar_backgroud{
+#medi_header .main_navbar .main_navbar_backgroud {
     background-color: var(--light-blue);
 }
-#medi_header .main_navbar .main_navbar_backgroud .main_navbar_items a{
+
+#medi_header .main_navbar_backgroud .main_navbar_items a {
     color: white;
     font-weight: 600;
 }
-#medi_header .main_navbar .main_navbar_backgroud .main_navbar_items i{
+
+#medi_header .main_navbar_items i {
     color: white;
     font-weight: 600;
     cursor: pointer;
 }
-#medi_header .main_navbar .main_navbar_backgroud .main_navbar_items a:hover{
+
+#medi_header .main_navbar_backgroud .main_navbar_items a:hover {
     color: var(--light-aqua);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************* 2. Home Here *****************************************/
+
+
+#home_page .home_right_image {
+    background-image: linear-gradient(to right, #c2e6f3, #d4eaf1, #c2e6f3);
+}
+
+.home_content {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.home_content_safe {
+    color: var(--light-blue);
+}
+
+.home_first_border {
+    border-bottom: 4px solid var(--light-blue);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************3. Footer Here  ********************************************/
+
+#medi_footer .footer_bar{
+    background-color: rgb(44,44,44);
+    color: white;
+}
+.footer_background{
+    background-color: rgb(68, 67, 67);
+}
+
+.footer_icons a{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.footer_images{
+    position: relative;
+}
+.footer_images image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.text {
+    color: white;
+    font-size: 16px;
+  }
+  .footer_images:hover .middle{
+    opacity: 1;
+  }
+  .footer_images:hover .image{
+    opacity: 0.3;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .useful_links{
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+  }
+  .useful_links:hover{
+    transform: scale(1.03);
+  }
+
