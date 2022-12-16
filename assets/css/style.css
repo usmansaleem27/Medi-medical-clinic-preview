@@ -2,7 +2,8 @@
 
 1. Header Here
 2. Home
-3. Footer
+3. Schedule Consultation
+4. Footer
 
 *************************************************************************************/
 
@@ -158,11 +159,35 @@ body {
 
 
 
+/******************************* 3. Schedule Consultation Here *****************************************/
 
 
 
+#consult_section .consultation_background{
+    background-image: linear-gradient(to right, rgb(181, 243, 229), rgb(221, 241, 240), rgb(169, 241, 243));
+}
 
+.schedule_consultation h1{
+    color: var(--light-blue);
+}
+.appointment_fix_button{
+    background-color: var(--pink);
+    border: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+.appointment_fix_button:hover{
+    background-color: rgb(247, 8, 131);
+    transform: scale(1.1);
+}
 
+.tell_us_button{
+    transition: 0.3s ease-in-out;
+}
+
+.tell_us_button:hover{
+    transform: scale(1.1);
+}
 
 
 
