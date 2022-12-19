@@ -1,3 +1,7 @@
+
+
+
+
 /************************************ Table of Contents  *****************************
 
 1. Header Here
@@ -5,7 +9,27 @@
 3. Schedule Consultation
 4. Footer
 
+
 *************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -18,6 +42,26 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -25,6 +69,25 @@ body {
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -119,25 +182,23 @@ body {
 /******************************* 2. Home Here *****************************************/
 
 
-#home_page .home_right_image {
-    background-image: linear-gradient(to right, #c2e6f3, #d4eaf1, #c2e6f3);
+
+#home_page .home_page_img{
+    position: relative;
 }
 
-.home_content {
-    font-size: 2rem;
-    font-weight: 800;
+.home_page_side_content{
+    position: absolute;
 }
 
-.home_content_safe {
+.safe_care_color{
     color: var(--light-blue);
 }
 
-.home_first_border {
-    border-bottom: 4px solid var(--light-blue);
-    margin-left: 40px;
-    margin-right: 40px;
+.safe_care{
+    border-bottom: 5px solid var(--light-blue);
+    
 }
-
 
 
 
@@ -176,6 +237,7 @@ body {
     outline: none;
     transition: 0.3s ease-in-out;
 }
+
 .appointment_fix_button:hover{
     background-color: rgb(247, 8, 131);
     transform: scale(1.1);
@@ -282,3 +344,56 @@ body {
     transform: scale(1.03);
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
